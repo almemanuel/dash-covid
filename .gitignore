@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+Dashboard COVID-19
 
 # C extensions
 *.so
