@@ -232,7 +232,6 @@ def update_map(date):
 )
 def update_location(click_data, n_clicks):
     changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-
     if click_data is not None and changed_id != 'location-button.n_clicks':
         state = click_data['points'][0]['location']
         return f'{state}'
